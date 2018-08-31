@@ -9,7 +9,7 @@ This code is fully tested with different sliding window sizes. Check process is 
 ## Steps of solution
 1. Read dataset from input folder line by line.
 2. Split the records from each line and check the line is splited correctly.
-3. Preprocess the data and store value in dictionary. Hour number is first key, stock name is second key.
+3. Preprocess the data and store value in designed dictionary. Hour number is first key, stock name is second key.
 4. Compute sum error, count of matched stocks in each hour. The results are stored in lists based on time stream order.
-5. Read sliding window size from inputfile. Compute average error for each sliding window.
-6. Covert results to desired format and write into output file.
+5. Read sliding window size from inputfile. Compute average error for each sliding window from previous results.
+6. Convert results to desired format and write outputs into output file.
