@@ -75,7 +75,7 @@ def compute_error(act_dict,pre_dict):
     return hour,error,count 
 
 # Compute average error for each sliding window 
-# and covert results to desired format for writing to output file.
+# and convert results to desired format for writing into output file.
 def slide_windows(filepath,hour,error,count):
     # Read window size from inputfile
     window=1
@@ -124,7 +124,7 @@ if (flag1+flag2)==0:
     hour,error,count=compute_error(act_dict,pre_dict) 
     
     # Compute average error for each sliding window 
-    # and covert results to desired format for writing to output file.
+    # and convert results to desired format for writing into output file.
     lines=slide_windows(inputfile3,hour,error,count) 
 
 try:
