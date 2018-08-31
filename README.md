@@ -4,7 +4,7 @@
 Codes is involved in folder src. Code is written in Python3 langauge. No external library is imported, only sys and re library are imported. 
 
 ## Testing
-This code is fully tested with itcont.txt file and de_cc_data.txt. Check process is passed in run_tests.sh!
+This code is fully tested with different sliding window sizes. Check process is passed in run_tests.sh!
 
 ## Steps of solution
 1. Read dataset from input folder line by line.
