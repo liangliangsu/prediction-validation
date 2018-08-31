@@ -1,7 +1,10 @@
 # The prediction validation challenge
 
 ## Run
-Codes is involved in folder src. Code is written in Python3 langauge. No external library is imported, only sys and re library are imported. 
+You can run the code with the following command:
+./run.sh
+
+Code is involved in folder src. Code is written in Python3 langauge. No external library is imported, only sys and re library are imported. 
 
 ## Testing
 This code is fully tested with different sliding window sizes. Check process is passed in run_tests.sh!
