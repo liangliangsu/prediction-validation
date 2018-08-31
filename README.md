@@ -1,9 +1,7 @@
 # The prediction validation challenge
 
 ## Run
-You can run the code with the following command:
-./run.sh
-
+You can run the code with the following command: ./run.sh
 Code is involved in folder src. Code is written in Python3 langauge. No external library is imported, only sys and re library are imported. 
 
 ## Testing
